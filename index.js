@@ -90,7 +90,7 @@ app.get("*", (req, res) => {
 
 const PORT = process.env.PORT;
 
-console.log(`API listening on port ${process.env.REACT_APP_API_URL}`);
+console.log(`API listening on  ${process.env.REACT_APP_API_URL}`);
 
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}`);
